@@ -65,7 +65,7 @@ The "Car_id" column should be removed because it contains unique values for each
 Initial Dataset Information:
 After the conversion, we verify the data types and information of the DataFrame using the df.info() function. This step is crucial to confirm the successful conversion of the 'Date' column to datetime format and to ensure the integrity of the dataset.
 
-![Alt text](<images/imagecopy 4.png>)
+![Alt text](<images/image copy 4.png>)
 
 Feature Extraction:
  - Year Extraction: We extract the year component from the 'Date' column using the .dt.year accessor and create a new column named 'Year'. This allows us to analyze trends and patterns at a yearly granularity.
@@ -76,20 +76,20 @@ Feature Extraction:
 
 
 * Customer Names: We are using word cloud or text visualization composed of various names
-![Alt text](<images/imagecopy 7.png>)
+![Alt text](<images/image copy 7.png>)
 The names are arranged and sized differently, with some names appearing larger and more prominently than others. Some key observations:
 
 * The central and largest names in the image are Emma, Lucas, Thomas, and Nathan, suggesting these may be popular or common names represented in this visualization.
 * The names are predominantly of English or Western origin, with a few names like Alexis, Antoine, and Nicolas that could be of French or European origin.
 * The names seem to be a mix of both male and female names, indicating a representation of both genders.
 
-![Alt text](<images/imagecopy 8.png>)
+![Alt text](<images/image copy 8.png>)
 
 
 * Gender: The image presents gender distribution data visualized through a pie chart and a bar chart.
 The pie chart shows that 78.6% i.e (18798) of the individuals in the dataset are male, while 21.4% (5108) are female.
 The bar chart further reinforces this observation by displaying the count or frequency of males and females in the dataset. The blue bar representing males is significantly higher than the bar for females, indicating a higher number of males in the dataset.
-![Alt text](<images/imagecopy 5.png>)
+![Alt text](<images/image copy 5.png>)
 
 
 * Transmission : 
