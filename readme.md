@@ -235,23 +235,59 @@ Based on the pie charts provided, I can make the following observations:
 ![Alt text](<images/image copy 19.png>)
 
 
-**Observations based Claims amounts**
+
+
+
+**Observations based Maximum Value of Amount claimed**
 ![Alt text](<images/image copy 20.png>)
-- This chart shows the distribution of claims by city. Tukums has the highest percentage at 17.7%, followed by Liepaja at 17%, Riga at 15.2%, and Ventspils at 16.7%.
+- This chart shows the distribution of claims amount by city. Tukums has claimed the highest amount by a percentage at 17.7%, followed by Liepaja at 17%, Daugavpils at 16.7% ,entspils at 16.7%&  Riga at 15.2%.
 
 ![Alt text](<images/image copy 21.png>)
-- This chart displays the distribution of claims by car company. The top companies with the highest claim percentages are Oldsmobile (5.8%), Nissan (3%), Mitsubishi (5%), and Mercury (4%).
+- This chart displays the distribution of claims by car company. The top companies with the claimed of highest amount by a percentages are Chevrolet (7.2%) ,Dodge (6.7%) ,Ford (6.2%) Oldsmobile (5.8%),Cadillac (4.4%) ,Mercedes-B (5.1%), Mitsubishi (5%), Mercury (4%).
 
 ![Alt text](<images/image copy 22.png>)
-- This chart illustrates the distribution of claims by car color. Pale White accounts for the highest percentage at 45.4%, followed by Black at 32.3%, and Red at 22.3%.
+- This chart illustrates the distribution of claims by car color. Pale White accounts for the highest percentage at 45.4% for Pale White, followed by Black at 32.3%, and Red at 22.3%.
 
 ![Alt text](<images/image copy 23.png>)
-- This chart presents the distribution of claims by car body style. SUVs have the highest percentage at 24.5%, followed by Hatchbacks at 25.3%, Passenger vehicles at 16.9%, Sedans at 20.1%, and Hardtops at 13.2%.
+- This chart presents the distribution of claims by car body style. SUVs have the highest percentage at 25.3% for Hatchback, followed by SUV at 24.5%,  Sedans at 20.1%,Passenger vehicles at 16.9%, and Hardtops at 13.2%.
 
 ![Alt text](<images/image copy 24.png>)
 - This chart shows the distribution of claims by month. The month with the highest percentage is December (14.8%), followed by November (13.9%), April (14%), October (10%), and September (9%).
 
 ![Alt text](<images/image copy 25.png>)
-This chart shows the distribution of claims by Year. The year with the highest percentage is 2023 (55.5%), followed by 2022 (44.5%).
+This chart shows the distribution of claims by Year. The year with the claimed the highest amount by percentage is 2023 (55.5%), followed by 2022 (44.5%).
 
 These pie charts provide insights into the distribution of car insurance claims based on various factors such as city, car company, color, body style, and the month of the year. This information can be valuable for insurance companies to analyze risk patterns and make informed decisions regarding pricing, underwriting, and risk management strategies.
+
+
+
+
+**Observations based TimeSeries Claim_amount , Price & Annual Income**
+
+
+Given that the data is related to car insurance, with the price representing the car's price, annual income representing the customer's annual income, and claim amount representing the claims made by the customer, the following observations can be made from a financial and risk analysis perspective:
+
+Claim Amount:
+
+![Alt text](<images/image copy 28.png>)
+- The highly volatile and fluctuating nature of claim amounts suggests that there are periods with higher risk of claims, possibly due to factors like accidents, natural disasters, or other events leading to increased claims activity.
+Insurance companies need to maintain adequate reserves and implement effective risk management strategies to handle these claim spikes and ensure financial stability.
+Analysis of claim patterns and underlying causes can help identify potential risk factors and develop targeted risk mitigation strategies.
+
+Price (Image 2):
+
+![Alt text](<images/image copy 29.png>)
+- The volatility in car prices can impact the insurance premium calculations and the potential claim payouts for insured vehicles.
+Highly fluctuating car prices may indicate market uncertainties or changing demand and supply dynamics, which can affect the insurer's risk exposure and profitability.
+Insurers may need to adjust their pricing models and underwriting criteria to account for the volatility in car prices and associated risks.
+
+Annual Income (Image 3):
+
+![Alt text](<images/image copy 30.png>)
+- The relatively stable pattern of annual income data suggests a more predictable cash flow for customers, which can positively impact their ability to pay insurance premiums consistently.
+However, fluctuations in annual income can affect customers' purchasing power and their willingness or ability to maintain adequate insurance coverage.
+Insurers may consider offering flexible payment options or adjusting premiums based on income levels to ensure affordability and maintain customer retention.
+
+Overall, the high volatility in claim amounts and car prices highlights the importance of robust risk management practices for car insurance companies. Effective underwriting, pricing models, and risk mitigation strategies are crucial to address these fluctuations and maintain profitability while providing adequate coverage to customers. Monitoring and analyzing these time series data can help insurers identify emerging risks, adjust their strategies, and ensure long-term financial stability in the car insurance industry.
+
+
