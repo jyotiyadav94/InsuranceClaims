@@ -132,7 +132,8 @@ Engine
 
 * Phone : This contains This was information which was not relevant to us. 
 
-* **Observations w.r.t to City**
+**Observations w.r.t to City**
+
 ![Alt text](<images/image copy 10.png>)
 - Riga has the highest count for both "Auto" and "Manual" transmissions across all cities.
 - Daugavpils and Tukums have relatively lower counts compared to other cities for both transmission types.
