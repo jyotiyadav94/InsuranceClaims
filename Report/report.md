@@ -38,11 +38,10 @@ Key statistics for numeric columns such as Annual_Income, Price_($), Phone, Amou
 
 * Missing Values:There is one missing value in the Customer_Name column.
 All other columns have no missing values.
-![Alt text](<images/imagecopy 2.png>)
 ![Alt text](<images/imagecopy.png>)
 
 So we decided to impute the missing values with the string value "Missing". Now we don't have any Missing Values in the Customer_Name column. 
-![Alt text](<images/imagecopy 3.png>)
+![Alt text](<images/image copy 3.png>)
 
 Alternatively we could have used other technicques to fill the missing values But the column was string column we do not want to mix up with the other values. 
  - Forward Fill (ffill) and Backward Fill (bfill): Use the value of the previous non-missing data point (ffill) or the next non-missing data point (bfill) to fill missing values, respectively. This method is suitable for time series data with numerical column.
