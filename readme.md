@@ -211,3 +211,47 @@ Now let's look at the Numerical Variables below
 * **Price Chart**:The price distribution appears to be bimodal or potentially multimodal, indicating the presence of two or more distinct peaks or modes. This pattern could arise in scenarios where there are different tiers or categories of pricing for products or services. For example, one peak might represent lower-priced items, while another peak corresponds to higher-end or premium offerings. The multiple peaks suggest that prices tend to cluster around certain values, rather than being evenly distributed across the range.
 
 * **Claim Amount Chart**:The claim amount distribution exhibits a strong right-skewed or positive skew. The distribution is heavily concentrated towards lower claim amounts, with a steep peak near zero, implying that a large number of claims are relatively small in value. However, the long tail extending towards higher claim amounts indicates the presence of a smaller number of claims with significantly larger monetary values. This pattern is typical in insurance or healthcare contexts, where most claims are for routine or minor expenses, while a few claims involve substantial costs, potentially due to major medical events or accidents.
+
+
+**Observations w.r.t to Claim Amount**
+![Alt text](<images/image copy 17.png>)
+
+Based on the multi-panel visualization, I can make the following observations related to financial and risk forecasting for car insurance claims:
+
+- More claims come from customers with lower incomes, so insurers may need to adjust pricing or risk models for this customer segment.
+- Most claims are for smaller amounts around $1,500, but there are also some larger claims up to $7,500 or more. Insurers need to plan for both frequent small claims and occasional large claims.
+- There is a pattern of more claims happening around the middle of the year, likely due to factors like more driving or weather impacts. Understanding these seasonal patterns can help predict claim volumes.So the maximum peaks or highest volumes of claims occur around the middle of the year, likely during the summer months of June, July and August.
+- The distribution of claims across different vehicle prices/policy types provides insights into potential losses for each pricing tier.
+- Sudden spikes in daily claims, or outlier events with many claims at once, indicate a need to account for volatility and extreme scenarios when calculating risks and financial reserves.
+
+In simple terms, this data can help insurers better estimate claim costs, set appropriate pricing, and have sufficient funds reserved to cover claims while accounting for patterns, different customer groups, and potential volatility in the claims process.
+
+**Outliers in Annual_income , Claim_amount & Price**
+Based on the pie charts provided, I can make the following observations:
+
+![Alt text](<images/image copy 18.png>)
+
+
+![Alt text](<images/image copy 19.png>)
+
+
+**Observations based Claims amounts**
+![Alt text](<images/image copy 20.png>)
+- This chart shows the distribution of claims by city. Tukums has the highest percentage at 17.7%, followed by Liepaja at 17%, Riga at 15.2%, and Ventspils at 16.7%.
+
+![Alt text](<images/image copy 21.png>)
+- This chart displays the distribution of claims by car company. The top companies with the highest claim percentages are Oldsmobile (5.8%), Nissan (3%), Mitsubishi (5%), and Mercury (4%).
+
+![Alt text](<images/image copy 22.png>)
+- This chart illustrates the distribution of claims by car color. Pale White accounts for the highest percentage at 45.4%, followed by Black at 32.3%, and Red at 22.3%.
+
+![Alt text](<images/image copy 23.png>)
+- This chart presents the distribution of claims by car body style. SUVs have the highest percentage at 24.5%, followed by Hatchbacks at 25.3%, Passenger vehicles at 16.9%, Sedans at 20.1%, and Hardtops at 13.2%.
+
+![Alt text](<images/image copy 24.png>)
+- This chart shows the distribution of claims by month. The month with the highest percentage is December (14.8%), followed by November (13.9%), April (14%), October (10%), and September (9%).
+
+![Alt text](<images/image copy 25.png>)
+This chart shows the distribution of claims by Year. The year with the highest percentage is 2023 (55.5%), followed by 2022 (44.5%).
+
+These pie charts provide insights into the distribution of car insurance claims based on various factors such as city, car company, color, body style, and the month of the year. This information can be valuable for insurance companies to analyze risk patterns and make informed decisions regarding pricing, underwriting, and risk management strategies.
