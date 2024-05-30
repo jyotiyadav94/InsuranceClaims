@@ -6,7 +6,7 @@
 * Instructions: You may invest as much time and effort as you wish. You can complete the task at your discretion, using whichever methods, libraries, and tools you think are most effective.
 
 ## Project Structure
-In this Notebook we will examine the Exploratory Data Analysis for the Machine learning. 
+In this Report, we will examine the Exploratory Data Analysis for Machine learning. For Modelling Part of Machine Learning & LLM Refer to the Notebooks.
 
 
 ``` bash
