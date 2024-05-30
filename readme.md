@@ -408,26 +408,17 @@ This chart shows the distribution of claims by Engine. The Engine with the claim
 
 ![Alt text](<images/image copy 48.png>)
 
-- Majority of Claimants Have Low Annual Income: The largest slice of the pie (64.3%) represents individuals with an annual income of 13,500. This indicates that the majority of claimants fall within the lower income bracket.
-
-- Minority of Claimants Have High Annual Income:  The smaller slices represent progressively higher income levels. A small portion of claimants have annual incomes exceeding 500,000, with the highest income bracket being 3,229,750, representing 4.7% of claimants.
-
-- Unequal Distribution: The distribution is heavily skewed towards lower incomes, with a long tail of higher-income individuals. This suggests that the majority of claims are made by individuals with lower incomes, while a small proportion of claims come from those with higher incomes.
-
-- Potential Risk Factors: The concentration of claims in the lower income bracket could indicate a higher risk profile associated with this group. This could be due to various factors such as owning older or less safe vehicles, residing in areas with higher accident rates, or engaging in riskier driving behaviors.
-
-- Pricing and Underwriting Implications: This distribution could have implications for insurance pricing and underwriting. Insurers might consider adjusting premiums based on income levels or tailoring products to cater to the needs of lower-income customers.
 
 
 ![Alt text](<images/image copy 49.png>)
-- Most Common Price Ranges for Claims:The most frequent price ranges for claims fall between 17,000 and 46,000, with each range accounting for roughly 3.5% to 5.7% of total claims.
-
-- Least Common Price Ranges for Claims:The least frequent price ranges for claims are 29,000 and 31,000, each representing 9% and 6.9% of total claims, respectively.
 
 These pie charts provide insights into the distribution of car insurance claims based on various factors such as city, car company, color, body style, and the month of the year. This information can be valuable for insurance companies to analyze risk patterns and make informed decisions regarding pricing, underwriting, and risk management strategies.
 
 
 **Observations based TimeSeries Claim_amount , Price & Annual Income**
+
+
+Given that the data is related to car insurance, with the price representing the car's price, annual income representing the customer's annual income, and claim amount representing the claims made by the customer, the following observations can be made from a financial and risk analysis perspective:
 
 Claim Amount:
 
@@ -436,18 +427,16 @@ Claim Amount:
 Insurance companies need to maintain adequate reserves and implement effective risk management strategies to handle these claim spikes and ensure financial stability.
 Analysis of claim patterns and underlying causes can help identify potential risk factors and develop targeted risk mitigation strategies.
 
-Price:
+Price (Image 2):
 
 ![Alt text](<images/image copy 29.png>)
-
 - The volatility in car prices can impact the insurance premium calculations and the potential claim payouts for insured vehicles.
 Highly fluctuating car prices may indicate market uncertainties or changing demand and supply dynamics, which can affect the insurer's risk exposure and profitability.
 Insurers may need to adjust their pricing models and underwriting criteria to account for the volatility in car prices and associated risks.
 
-Annual Income:
+Annual Income (Image 3):
 
 ![Alt text](<images/image copy 30.png>)
-
 - The relatively stable pattern of annual income data suggests a more predictable cash flow for customers, which can positively impact their ability to pay insurance premiums consistently.
 However, fluctuations in annual income can affect customers' purchasing power and their willingness or ability to maintain adequate insurance coverage.
 Insurers may consider offering flexible payment options or adjusting premiums based on income levels to ensure affordability and maintain customer retention.
@@ -459,7 +448,7 @@ correlation Matrix
 ![Alt text](<images/image copy 36.png>)
 
 
-Observations after converting all the featires to numerical values: 
+This dataset appears to contain various features related to car insurance claims. Here are the observations from each feature:
 ![Alt text](<images/image copy 31.png>)
 
 * Annual_Income: The distribution shows a skewed pattern, with a large number of claims coming from individuals with lower annual income levels.
@@ -476,6 +465,8 @@ Observations after converting all the featires to numerical values:
 
 Overall, this dataset provides insights into various factors that could influence the likelihood and magnitude of car insurance claims, which can be valuable for insurance companies in risk assessment and pricing.
 
+
+**Ideal Customer Profiles Information**
 
 
 For More Modelling refer to Notebooks: 
