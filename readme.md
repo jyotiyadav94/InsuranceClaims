@@ -76,7 +76,7 @@ The main README file for the repository, which typically contains an overview of
 
 
 ## Dataset Description
-The dataset consists of insurance data samples, containing various attributes related to customers and their insurance policies. The dataset is stored in a CSV file.
+The dataset consists of insurance data samples, containing various attributes related to customers. The dataset is stored in a CSV file.
 
 These are the below attributes of the dataset. 
 ![Alt text](<images/image.png>)
