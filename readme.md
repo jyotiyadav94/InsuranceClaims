@@ -11,6 +11,60 @@ The dataset consists of insurance data samples, containing various attributes re
 These are the below attributes of the dataset. 
 ![Alt text](<images/image.png>)
 
+## Project Structure
+InsuranceClaims/
+│
+├── Notebooks/
+│   ├── MachineLearningEDA+Modelling.ipynb
+│   └── LLM_fine_tuningipynb.ipynb
+│
+├── dataset/
+│   ├── datasetqa.csv
+│   ├── features.csv
+│   └── formatted.json
+│
+├── images/
+│   └── (all images used in README.md)
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+
+
+Notebooks/
+This directory contains all the Jupyter notebooks used for analysis, EDA, and model training.
+
+- **MachineLearningEDA+Modelling.ipynb**  
+  The Problem is approached using machine learning. This contains the Exploratory Data Analysis and Modelling part.
+
+- **LLM_fine_tuningipynb.ipynb**  
+  The Modelling is also done using the LLM model FLANT-5 Model. The demo for this is created on HuggingFace.  
+  Please find the space here: [HuggingFace Space](https://huggingface.co/spaces/Jyotiyadav/InsuranceClaim)  
+  Model: [FLANT-5 Model](https://huggingface.co/Jyotiyadav/InsuranceModel1.0)  
+  ![Alt text](images/image%20copy%203.png)
+
+dataset/
+This directory contains all the dataset files.
+
+- **datasetqa.csv**  
+  This dataset is converted into the format for training an LLM Model.
+
+- **features.csv**  
+  The final features stored using machine learning for fine-tuning the LLM.
+
+- **formatted.json**  
+  The dataset converted into the JSON format for training the LLM model.
+
+images/
+This directory contains all the images used in the `README.md` file. The images are stored here for organizational purposes and to keep the repository structure clean.
+
+README.md
+The main README file for the repository, which typically contains an overview of the project, instructions on how to set it up, usage examples, and more.
+
+.gitignore
+(Optional) A file specifying which files and directories should be ignored by Git. This can include temporary files, build artifacts, etc.
+
+
 ### 2. Data Understanding
 * Shape of the Dataset: The dataset contains 23,906 rows and 18 columns.
 
@@ -291,3 +345,55 @@ Insurers may consider offering flexible payment options or adjusting premiums ba
 Overall, the high volatility in claim amounts and car prices highlights the importance of robust risk management practices for car insurance companies. Effective underwriting, pricing models, and risk mitigation strategies are crucial to address these fluctuations and maintain profitability while providing adequate coverage to customers. Monitoring and analyzing these time series data can help insurers identify emerging risks, adjust their strategies, and ensure long-term financial stability in the car insurance industry.
 
 
+correlation Matrix 
+![Alt text](<images/image copy 36.png>)
+
+
+This dataset appears to contain various features related to car insurance claims. Here are the observations from each feature:
+![Alt text](<images/image copy 31.png>)
+
+* Annual_Income: The distribution shows a skewed pattern, with a large number of claims coming from individuals with lower annual income levels.
+* Price_($): The distribution of claim amounts related to the price of the vehicle seems to peak around certain values, suggesting that certain price ranges are more prone to claims.
+* Claim_amount: The distribution of claim amounts is right-skewed, with most claims being relatively small, but a few large claims contributing to the long tail.
+* Gender: The distribution shows a higher frequency for one gender over the other, indicating a potential difference in claim patterns between genders.
+* Month: There seems to be a seasonal pattern in the claims, with some months having higher claim frequencies than others.
+* Company: The distribution suggests that certain companies may have higher or lower claim frequencies compared to others.
+* City: The pattern indicates that there may be variations in claim frequencies across different cities or locations.
+* Model: The distribution shows that certain car models tend to have higher claim frequencies compared to others.
+* Color: While the distribution is not as pronounced as some other features, it suggests that the color of the vehicle may be associated with different claim patterns.
+* Engine: The distribution shows a potential relationship between engine size or type and claim frequency.
+* Body_Style: The pattern indicates that certain body styles (e.g., sedan, SUV, coupe) may have varying claim frequencies.
+
+Overall, this dataset provides insights into various factors that could influence the likelihood and magnitude of car insurance claims, which can be valuable for insurance companies in risk assessment and pricing.
+
+
+Modelling 
+
+![Alt text](<images/image copy 37.png>)
+
+
+
+![Alt text](<images/image copy 38.png>)
+Based on the provided images, which seem to be related to a binary classification model for car insurance claim prediction, we can make the following observations:
+Image 1: Confusion Matrix
+The confusion matrix shows the predicted and actual values for the binary target variable "Claim" and "Not_Claim". From the matrix, we can observe:
+
+The model correctly predicted 4304 instances as "Claim" (True Positives)
+The model incorrectly predicted 478 instances as "Not_Claim" when they were actually "Claim" (False Negatives)
+There are no instances where the model predicted "Claim" when the actual value was "Not_Claim" (False Positives or Type I errors)
+There are no instances where the model predicted "Not_Claim" when the actual value was "Not_Claim" (True Negatives)
+
+Image 2: ROC Curve and Precision-Recall Curve
+![Alt text](<images/image copy 39.png>)
+The Receiver Operating Characteristic (ROC) curve and Precision-Recall curve provide insights into the performance of the binary classification model.
+ROC Curve:
+
+The ROC curve shows the trade-off between the True Positive Rate (TPR) and False Positive Rate (FPR) at different classification thresholds.
+The Area Under the Curve (AUC) for the ROC curve is 0.50, which suggests that the model's performance is no better than random guessing for this particular problem.
+
+Precision-Recall Curve:
+
+The Precision-Recall curve shows the trade-off between precision (fraction of true positives among predicted positives) and recall (fraction of true positives correctly identified) at different thresholds.
+The Average Precision (AP) for the Precision-Recall curve is 0.10, which is relatively low, indicating that the model may have difficulty in correctly identifying positive instances (claims).
+
+Based on these observations, it appears that the binary classification model for predicting car insurance claims may not be performing well on this dataset. The low AUC and AP values, along with the absence of False Positives and True Negatives in the confusion matrix, suggest that the model needs further improvement or adjustments to better distinguish between "Claim" and "Not_Claim" instances.
