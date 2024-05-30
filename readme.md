@@ -507,5 +507,7 @@ Categorical Variables:
 - Car Price and Risk: The concentration of claim amounts in the mid-range car price segment indicates a higher risk profile for these vehicles. This could be attributed to factors such as the prevalence of these cars on the road, their usage patterns, or their vulnerability to damage. Insurers can utilize this information to refine risk assessment and pricing models, potentially adjusting premiums based on car price, particularly for mid-range priced vehicles.
 
 
+# Classification Model Results 
+![Alt text](<images/image copy 37.png>)
 
-For More Modelling refer to Notebooks: 
+For More on Modelling part refer to Notebooks: 
