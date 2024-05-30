@@ -480,8 +480,6 @@ Notable Absence of Correlation:
 The features after converting the categorical features into numerical features
 ![Alt text](<images/image copy 31.png>)
 
-Numerical Variables:
-
 - Annual_Income: The distribution is heavily right-skewed, indicating that most policyholders have lower annual incomes, with a few outliers having very high incomes. This suggests a potential concentration of risk within the lower-income segment.
 
 - Price ($): The distribution is also right-skewed, suggesting that most insured cars are relatively inexpensive, with fewer expensive cars in the dataset. This could influence the distribution of claim amounts.
@@ -489,8 +487,6 @@ Numerical Variables:
 - Claim_amount: The distribution is heavily right-skewed with a long tail, indicating that most claims are small, but there are a few very large claims. This is a typical pattern in insurance data.
 
 - Day: The distribution is relatively uniform, suggesting that the day of the month doesn't have a significant impact on claim frequency or severity.
-
-Categorical Variables:
 
 - Gender: There are two categories (likely male and female), with one category having slightly more occurrences. This could be investigated further to see if there are differences in claim behavior between genders.
 
@@ -510,7 +506,7 @@ Categorical Variables:
 
 
 
-**Ideal Customer Profiles Information**
+# **Ideal Customer Profiles Information**
 
 - Chevrolet, Dodge, and Ford are the top three companies in terms of total claim amounts, indicating a higher frequency or severity of claims for these brands compared to others. This could be due to various factors, such as the popularity of these brands, the types of vehicles they manufacture, or the demographics of their customer base.
 
