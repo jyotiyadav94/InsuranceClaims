@@ -428,9 +428,6 @@ Based on the pie charts provided, I can make the following observations:
 
 **Observations based TimeSeries Claim_amount , Price & Annual Income**
 
-
-Given that the data is related to car insurance, with the price representing the car's price, annual income representing the customer's annual income, and claim amount representing the claims made by the customer, the following observations can be made from a financial and risk analysis perspective:
-
 Claim Amount:
 
 ![Alt text](<images/image copy 28.png>)
