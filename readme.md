@@ -12,6 +12,8 @@ These are the below attributes of the dataset.
 ![Alt text](<images/image.png>)
 
 ## Project Structure
+
+``` bash
 InsuranceClaims/
 │
 ├── Notebooks/
@@ -29,7 +31,7 @@ InsuranceClaims/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
+```
 
 Notebooks/
 This directory contains all the Jupyter notebooks used for analysis, EDA, and model training.
