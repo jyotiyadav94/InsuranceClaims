@@ -24,6 +24,10 @@ InsuranceClaims/
 ├── images/
 │   └── (all images used in README.md)
 │
+├── Reports/
+|   ├── ReportPandasProfiling.html
+│   ├── sweetviz_report.html
+│
 ├── .gitignore
 ├── LICENSE
 └── README.md
