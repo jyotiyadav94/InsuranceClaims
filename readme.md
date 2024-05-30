@@ -39,8 +39,8 @@ This directory contains all the Jupyter notebooks used for analysis, EDA, and mo
 - **MachineLearningEDA+Modelling.ipynb**  
 The problem is approached using machine learning, encompassing both Exploratory Data Analysis (EDA) and modeling. The objective is to forecast the Claim_amount. This is tackled as both a classification and a regression problem:
 
-* Classification: All non-zero values are converted to 1, indicating that a claim has been made, while 0 indicates no claim.
-* Regression: Predict the actual claim amount for the instances where claims are made.
+* **Classification**: All non-zero values are converted to 1, indicating that a claim has been made, while 0 indicates no claim.
+* **Regression**: Predict the actual claim amount for the instances where claims are made.
 
 - **LLM_fine_tuningipynb.ipynb**  
   The Modelling is also done using the LLM model FLANT-5 Model. The demo for this is created on HuggingFace.  
