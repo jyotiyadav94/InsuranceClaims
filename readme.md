@@ -81,7 +81,7 @@ The dataset consists of insurance data samples, containing various attributes re
 These are the below attributes of the dataset. 
 ![Alt text](<images/image.png>)
 
-## 2. Quality of the dataset
+# 2. Quality of the dataset
 * **Shape of the Dataset**: The dataset contains 23,906 rows and 18 columns.
 * **Rename Column Names**: The column Names have been renamed space is replaced by _ for simplicity. 
 * Top 5 Records: 
@@ -113,7 +113,7 @@ These are the below attributes of the dataset.
 
 
 
-## Exploratory Data Analysis
+# Exploratory Data Analysis
 We further generated a complete and exhaustive report for the dataset using the following
 
     * Pandas profiling 
@@ -561,9 +561,9 @@ Shape of X_train after SMOTE:
 
 - (34424, 13): After applying SMOTE, the training set expanded to 34,424 samples, each still with 13 features. This increase in sample size reflects the addition of synthetic minority class instances.
 
-For More on Modelling part refer to Notebooks: 
+# For More on Modelling part refer to Notebooks: 
 
-Work To be Done : 
+# **Work To be Done** : 
 
 * Model Improvemnt
 * HyperParameters Tuning 
