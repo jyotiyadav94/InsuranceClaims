@@ -568,3 +568,9 @@ Shape of X_train after SMOTE:
 * Model Improvemnt
 * HyperParameters Tuning 
 * Machine Learning Model Comparision VS LLM Fine-tuned Model
+
+
+# Author
+-------------------------------
+[Jyoti Yadav](https://www.linkedin.com/in/jyoti-yadav-64916b160/)
+jojoyadav255@gmail.com
