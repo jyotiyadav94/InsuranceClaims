@@ -119,12 +119,10 @@ We further generate a complete and exhaustive report for the dataset using the f
     - Autoviz
     - Sweet
 
-* **Observations Average Claim Amount and Insurance Paid**:
+**Observations Average Claim Amount and Insurance Paid**:
 
  ![Alt text](<images/image copy 52.png>)
  ![Alt text](<images/image copy 51.png>)
-
-Based on the line plots of average claim amount and insurance paid by week and day of year, we can make the following observations:
 
 **Weekly Trends**: There seems to be some fluctuation in both average claim amount and insurance paid throughout the weeks, but there is no clear consistent pattern or trend. Some weeks have higher averages, while others have lower, suggesting that claim amounts and insurance premiums might be influenced by factors other than the week of the year.
 
