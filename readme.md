@@ -232,7 +232,7 @@ Engine
 Phone 
 
  ![Alt text](<images/image copy 50.png>)
-Each Phone No in the dataset is unique, indicating that there are 99.9% distinct values in the dataset. This dataset can be removed as it contains almost unique values for each entry in the dataset.
+Each Phone No in the dataset is unique, indicating that there are 99.9% distinct values in the dataset. This column Phone can be removed as it contains almost unique values for each entry in the dataset.
 
 **Observations Total claim amount over the months**
 
