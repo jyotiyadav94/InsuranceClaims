@@ -573,4 +573,5 @@ Shape of X_train after SMOTE:
 # Author
 -------------------------------
 [Jyoti Yadav](https://www.linkedin.com/in/jyoti-yadav-64916b160/)
+
 jojoyadav255@gmail.com
