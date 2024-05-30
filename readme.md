@@ -534,7 +534,46 @@ Categorical Variables:
 - Car Price and Risk: The concentration of claim amounts in the mid-range car price segment indicates a higher risk profile for these vehicles. This could be attributed to factors such as the prevalence of these cars on the road, their usage patterns, or their vulnerability to damage. Insurers can utilize this information to refine risk assessment and pricing models, potentially adjusting premiums based on car price, particularly for mid-range priced vehicles.
 
 
+# Normalizing data  
+Label Encoding is a method used to convert categorical text data into numerical values. This transformation is essential for machine learning algorithms that operate on numerical data.
+
+Features Encoded:
+- Body_Style: Types such as sedan, SUV.
+- Color: Colors like red, blue, black.
+- Engine: Engine types such as V6, electric.
+- Model: Specific car models like Camry, Civic.
+- City: Locations such as New York, Los Angeles.
+- Month: Months of the year, capturing seasonal trends.
+- Gender: Gender information, typically male or female.
+- Dealer_Name: Names of car dealers, e.g., ABC Motors.
+- Company: Car manufacturers like Toyota, Honda.
+
+Min-Max Scaling is a normalization technique used to adjust the values of numerical features so they fall within a specified range, usually 0 to 1. This scaling is crucial for algorithms sensitive to the scale of data, such as those relying on distance calculations.
+
+- Whole Feature Set: Applied to all features in the dataset to ensure consistent scaling across all data points.
+
 # Classification Model Results 
 ![Alt text](<images/image copy 37.png>)
 
+# SMOTE Algorithm 
+
+SMOTE (Synthetic Minority Over-sampling Technique) is a powerful method used to address class imbalance in datasets. By generating synthetic examples of the minority class, SMOTE helps create a more balanced dataset, which is crucial for training machine learning models effectively.
+
+**Identifying Minority Samples**: Detects instances of the minority class in the training data.
+**Generating Synthetic Samples**: Creates new, synthetic examples by interpolating between existing minority class samples.
+**Balancing the Dataset**: Adds these synthetic samples to the dataset, increasing the number of minority class instances.
+
+Shape of X_train before SMOTE:
+
+- (19124, 13): This indicates that the training set initially contained 19,124 samples, each with 13 features.
+Shape of X_train after SMOTE:
+
+- (34424, 13): After applying SMOTE, the training set expanded to 34,424 samples, each still with 13 features. This increase in sample size reflects the addition of synthetic minority class instances.
+
 For More on Modelling part refer to Notebooks: 
+
+Work To be Done : 
+
+* Model Improvemnt
+* HyperParameters Tuning 
+* Machine Learning Model Comparision VS LLM Fine-tuned Model
