@@ -336,11 +336,11 @@ Now let's look at the Numerical Variables below
 
 ![Alt text](<images/image copy 9.png>)
 
-* **Annual Income Chart**:The distribution of annual income displays a right-skewed or positively skewed pattern. This means that the majority of the data points are concentrated on the lower end of the income range, with a long tail extending towards the higher income values. This type of distribution is common for income data, as a relatively small proportion of the population tends to have very high incomes, while the majority fall within lower to middle-income ranges. The sharp peak near zero suggests a significant number of individuals with little to no income.
+* **Annual Income**:The distribution of annual income displays a right-skewed or positively skewed pattern. This means that the majority of the data points are concentrated on the lower end of the income range, with a long tail extending towards the higher income values. This type of distribution is common for income data, as a relatively small proportion of the population tends to have very high incomes, while the majority fall within lower to middle-income ranges. The sharp peak near zero suggests a significant number of individuals with little to no income.
 
-* **Price Chart**:The price distribution appears to be bimodal or potentially multimodal, indicating the presence of two or more distinct peaks or modes. This pattern could arise in scenarios where there are different tiers or categories of pricing for products or services. For example, one peak might represent lower-priced items, while another peak corresponds to higher-end or premium offerings. The multiple peaks suggest that prices tend to cluster around certain values, rather than being evenly distributed across the range.
+* **Price**:The price distribution appears to be bimodal or potentially multimodal, indicating the presence of two or more distinct peaks or modes. This pattern could arise in scenarios where there are different tiers or categories of pricing for products or services. For example, one peak might represent lower-priced items, while another peak corresponds to higher-end or premium offerings. The multiple peaks suggest that prices tend to cluster around certain values, rather than being evenly distributed across the range.
 
-* **Claim Amount Chart**:The claim amount distribution exhibits a strong right-skewed or positive skew. The distribution is heavily concentrated towards lower claim amounts, with a steep peak near zero, implying that a large number of claims are relatively small in value. However, the long tail extending towards higher claim amounts indicates the presence of a smaller number of claims with significantly larger monetary values. This pattern is typical in insurance or healthcare contexts, where most claims are for routine or minor expenses, while a few claims involve substantial costs, potentially due to major medical events or accidents.
+* **Claim Amount**:The claim amount distribution exhibits a strong right-skewed or positive skew. The distribution is heavily concentrated towards lower claim amounts, with a steep peak near zero, implying that a large number of claims are relatively small in value. However, the long tail extending towards higher claim amounts indicates the presence of a smaller number of claims with significantly larger monetary values. This pattern is typical in insurance or healthcare contexts, where most claims are for routine or minor expenses, while a few claims involve substantial costs, potentially due to major medical events or accidents.
 
 
 **Observations w.r.t to Claim Amount**
@@ -350,7 +350,7 @@ Based on the multi-panel visualization, I can make the following observations re
 
 - More claims come from customers with lower incomes, so insurers may need to adjust pricing or risk models for this customer segment.
 - Most claims are for smaller amounts around $1,500, but there are also some larger claims up to $7,500 or more. Insurers need to plan for both frequent small claims and occasional large claims.
-- There is a pattern of more claims happening around the middle of the year, likely due to factors like more driving or weather impacts. Understanding these seasonal patterns can help predict claim volumes.So the maximum peaks or highest volumes of claims occur around the middle of the year, likely during the summer months of June, July and August.
+- There is a pattern of more claims happening around the middle of the year, likely due to factors like more driving or weather impacts. Understanding these seasonal patterns can help predict claim volumes. So the maximum peaks or highest volumes of claims occur around the middle of the year, likely during the summer months of June, July and August.
 - The distribution of claims across different vehicle prices/policy types provides insights into potential losses for each pricing tier.
 - Sudden spikes in daily claims, or outlier events with many claims at once, indicate a need to account for volatility and extreme scenarios when calculating risks and financial reserves.
 
@@ -365,7 +365,7 @@ Based on the pie charts provided, I can make the following observations:
 ![Alt text](<images/image copy 19.png>)
 
 
-**After Removing Outliers using Cappping**
+**After Removing Outliers using Capping**
 
 ![Alt text](<images/image copy 40.png>)
 
