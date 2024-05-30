@@ -229,60 +229,30 @@ Each Phone No in the dataset is unique, indicating that there are 99.9% distinct
 - The months of May, August, September, and October show relatively high claim amounts compared to the early months of the year.
 - This suggests a cyclical pattern where claims increase towards the end of the year and decrease at the beginning. This could be due to various factors such as weather conditions, holiday travel, or other seasonal trends that influence driving patterns and accident rates.
 
+**Observations w.r.t to Normal Distribution**
+![Alt text](<images/image copy 41.png>)
 
 **Observations w.r.t to Average Claim Amount**
 
 ![Alt text](<images/image copy 42.png>)
 
-* Dealer Name: Significant variation in average claim amounts exists across dealers. Some dealers consistently experience higher average claims, suggesting potential differences in the types of cars sold, customer demographics, or claim handling practices.
-
-* Company Name: Similar to dealer names, company names (possibly insurers) also show notable differences in average claim amounts. This could indicate varying underwriting standards, risk assessment, or claim settlement processes.
-
-* City: Certain cities exhibit much higher average claim amounts than others. This could be due to factors like traffic density, accident rates, road conditions, or the prevalence of fraudulent claims.
-
-* Annual Income: As annual income increases, the average claim amount also tends to increase, although the relationship is not strictly linear. Higher-income individuals might own more expensive cars, leading to higher repair costs in case of accidents.
-
-* Price: The average claim amount shows a clear upward trend with the car's price. This is expected since more expensive cars generally have higher repair costs.
-
-* Month: There's a slight seasonal variation in average claim amounts, with higher claims observed during certain months. This could be related to weather conditions, holidays, or travel patterns.
-
-* Day:  The variation in average claim amounts across days of the week is relatively small. There might be a slight increase in claims during weekends, possibly due to increased leisure driving.
-
-* Engine: The type of engine seems to have a minor impact on average claim amounts. However, some engine types consistently show higher claims, suggesting potential differences in their risk profiles.
-
-* Body Style: Different body styles have varying average claim amounts. Some body styles like SUVs might be more prone to accidents or have higher repair costs due to their size and complexity.
-
-* Gender: The average claim amount is slightly higher for one gender compared to the other. This could be due to differences in driving behavior, mileage, or the types of cars owned.
+* Pars Auto Sales has the highest average claim amount, while Motor Vehicle Branch Office has the lowest.
+* Cadillac has the highest average claim amount , while Hyundai has the lowest.
+* The average claim amount is slightly Red Color followed by Black & Pale White.ù
+* Sedans have the highest average claim amount, while SUVs have the lowest.
+* Tukums has the highest average claim amount, while Riga has the lowest.
+* The Catera model has the highest average claim amount  while the Avalon and Mirage models have the lowest.
+* Cars with Overhead Camshaft engines have a slightly higher average claim amount  than those with Double Overhead Camshaft engines.
+* Cars with manual transmissions have a slightly higher average claim amount than those with automatic transmissions.
+* The average claim amount is relatively stable across years, with a slight increase in 2023.
+* The average claim amount is slightly higher in the summer and fall months.
+* The average claim amount is slightly higher for females compared to males.
 
 **Observations for Insurancers**
 
 * Risk Assessment: The observed patterns can be valuable for risk assessment and pricing. Insurers could use this information to adjust premiums based on the dealer, company, city, car price, engine type, body style etc.
 
 * Fraud Detection: Identifying cities or dealers with unusually high average claim amounts could help in detecting potential fraud or areas where claims handling processes need improvement.
-
-**Observations w.r.t to Normal Distribution**
-
-![Alt text](<images/image copy 41.png>)
-
-Observations:
-
-- Gender: The average claim amount is slightly higher for one gender (most probably, males) compared to the other. This could be due to differences in driving behavior, mileage, or the types of cars owned.
-
-- Year: There's a slight difference in average claim amounts across the years. There could be a slight increase in claims in 2021, possibly due to an increase in the number of cars or miles driven in this year.
-
-- City: Certain cities exhibit much higher average claim amounts than others. This could be due to factors like traffic density, accident rates, road conditions, or the prevalence of fraudulent claims.
-
-- Dealer Name: Significant variation in average claim amounts exists across dealers. Some dealers consistently experience higher average claims, suggesting potential differences in the types of cars sold, customer demographics, or claim handling practices.
-
-- Day: The variation in average claim amounts across days of the week is relatively small. There might be a slight increase in claims during weekends, possibly due to increased leisure driving.
-
-- Body Style: Different body styles have varying average claim amounts. Some body styles like SUVs might be more prone to accidents or have higher repair costs due to their size and complexity.
-
-- Annual Income: As annual income increases, the average claim amount also tends to increase, although the relationship is not strictly linear. Higher-income individuals might own more expensive cars, leading to higher repair costs in case of accidents.
-
-- Month: There's a slight seasonal variation in average claim amounts, with higher claims observed during certain months (Summer and Fall). This could be related to weather conditions, holidays, or travel patterns.
-
-
 
 **Observations w.r.t to Model**
 
@@ -468,9 +438,6 @@ This dataset appears to contain various features related to car insurance claims
 * Body_Style: The pattern indicates that certain body styles (e.g., sedan, SUV, coupe) may have varying claim frequencies.
 
 Overall, this dataset provides insights into various factors that could influence the likelihood and magnitude of car insurance claims, which can be valuable for insurance companies in risk assessment and pricing.
-
-
-**Ideal Customer Profiles Information**
 
 
 For More Modelling refer to Notebooks: 
