@@ -119,8 +119,24 @@ We further generate a complete and exhaustive report for the dataset using the f
     - Autoviz
     - Sweet
 
+* **Observations Average Claim Amount and Insurance Paid**:
+
+ ![Alt text](<images/image copy 52.png>)
+ ![Alt text](<images/image copy 51.png>)
+
+Based on the line plots of average claim amount and insurance paid by week and day of year, we can make the following observations:
+
+**Weekly Trends**: There seems to be some fluctuation in both average claim amount and insurance paid throughout the weeks, but there is no clear consistent pattern or trend. Some weeks have higher averages, while others have lower, suggesting that claim amounts and insurance premiums might be influenced by factors other than the week of the year.
+
+**Seasonal Trends**: The average claim amount and insurance paid show some seasonal variation throughout the year. There are periods with higher averages, particularly around the beginning and middle of the year, and periods with lower averages. This could be due to various factors such as weather conditions, holidays, or changes in driving patterns throughout the year.
+
+**Relationship between Claim Amount and Insurance Paid**: The two lines in the plots generally follow a similar pattern, indicating a positive correlation between the average claim amount and the average amount paid for insurance. This suggests that higher insurance premiums might be associated with a higher risk of claims or more expensive claims.
+
+
 * **Correlation Analysis**:
+
 ![Alt text](<images/image copy 6.png>)
+
  - Amount_paid_for_insurance and Price_($): There is a high overall correlation between the amount paid for insurance and the price of the vehicles. This correlation suggests that as the price of the vehicle increases, the amount paid for insurance also tends to increase.
 
 - Dealer_Name and Dealer_No: There is a high overall correlation between dealer names and dealer numbers. This correlation indicates a strong association between specific dealerships and their unique identification numbers.
@@ -263,42 +279,48 @@ Each Phone No in the dataset is unique, indicating that there are 99.9% distinct
 **Observations w.r.t to City**
 
 ![Alt text](<images/image copy 10.png>)
+
 - Riga has the highest count for both "Auto" and "Manual" transmissions across all cities.
 - Daugavpils and Tukums have relatively lower counts compared to other cities for both transmission types.
 
 ![Alt text](<images/image copy 11.png>)
+
 - The distribution pattern across cities is similar for both "Double-A, Overhead Camshaft" and "Overhead Camshaft" engine types.
 - Riga again has the highest counts for both engine types, followed by Liepaja and Jelgava.
 - Ventspils, Daugavpils, and Tukums have lower counts compared to the larger cities.
 
 ![Alt text](<images/image copy 12.png>)
+
 - There is a wide range of companies represented across the cities.
 - Riga has the highest counts for most companies, with some notable peaks for companies like "Ford," "Audi," and "Mercedes-Benz."
 - Other cities like Liepaja, Jelgava, and Ventspils also have significant counts for certain companies.
 
 ![Alt text](<images/image copy 13.png>)
+
 - There is a large number of individual dealer names represented across the cities.
 - The distribution pattern is similar across cities, with a mix of higher and lower counts for different dealer names.
 - Riga, being the largest city, tends to have higher counts for most dealer names compared to other cities.
 
 ![Alt text](<images/image copy 14.png>)
+
 - This bar chart shows the distribution of dealer names across different cities.
 - The cities included are Riga, Liepaja, Jelgava, Ventspils, Daugavpils, and Tukums.
 - Some dealer names like "Pilot Cars" and "Gerts Ratte" appear to have a significant presence across multiple cities.
 - The chart highlights the diversity of dealer names operating within each city.
 
 ![Alt text](<images/image copy 15.png>) 
+
 - This stacked bar chart displays the gender distribution (male and female) across the same set of cities.
 - The male population is significantly larger than the female population in all cities.
 - Riga has the highest overall population for both genders, followed by Liepaja and Jelgava.
 - The chart allows for easy comparison of gender ratios between different cities.
 
 ![Alt text](<images/image copy 16.png>)
+
 - These stacked bar charts show the distribution of different body styles (SUV, Passenger, Hatchback, Hatchback, and Sedan) across the cities.
 - The SUV and Passenger body styles appear to be the most prevalent in all cities.
 - Riga and Liepaja have the highest counts for each body style compared to other cities.
 - The charts provide insights into the popularity of various vehicle body styles in different regions.
-
 
 * **Claim_amount**: A significant portion of claim amounts (90.0%) in the dataset are zeros. This observation suggests that the majority of insurance claims associated with the vehicles in the dataset do not involve monetary compensation.
 
@@ -353,40 +375,58 @@ Based on the pie charts provided, I can make the following observations:
 ![Alt text](<images/image copy 45.png>)
 
 
-**Observations based Maximum Value of Amount claimed**
+**Observations based Total percentage of Amount claimed**
+
 ![Alt text](<images/image copy 20.png>)
-- This chart shows the distribution of claims amount by city. Tukums has claimed the highest amount by a percentage at 17.7%, followed by Liepaja at 17%, Daugavpils at 16.7% ,entspils at 16.7%&  Riga at 15.2%.
+
+- This chart shows the total percentage of claims amount by city. Tukums has claimed the highest amount by a percentage at 17.8%, followed by Liepaja at 17%, Daugavpils at 16.7% ,entspils at 16.7%&  Riga at 15.2%.
 
 ![Alt text](<images/image copy 21.png>)
-- This chart displays the distribution of claims by car company. The top companies with the claimed of highest amount by a percentages are Chevrolet (7.2%) ,Dodge (6.7%) ,Ford (6.2%) Oldsmobile (5.8%),Cadillac (4.4%) ,Mercedes-B (5.1%), Mitsubishi (5%), Mercury (4%).
+
+- This chart displays the Total percentage of claims by car company. The top companies with the claimed of highest amount by a percentages are Chevrolet (7.3%) ,Dodge (6.9%) ,Ford (6.3%) Oldsmobile (5.8%),Cadillac (4.4%) ,Mercedes-B (5.1%), Mitsubishi (5%), Mercury (4%).
+
+
 
 ![Alt text](<images/image copy 22.png>)
-- This chart illustrates the distribution of claims by car color. Pale White accounts for the highest percentage at 45.4% for Pale White, followed by Black at 32.3%, and Red at 22.3%.
+
+- This chart illustrates the Total percentage of claims by car color. Pale White accounts for the highest percentage at 45.4% for Pale White, followed by Black at 32.3%, and Red at 22.3%.
 
 ![Alt text](<images/image copy 23.png>)
-- This chart presents the distribution of claims by car body style. SUVs have the highest percentage at 25.3% for Hatchback, followed by SUV at 24.5%,  Sedans at 20.1%,Passenger vehicles at 16.9%, and Hardtops at 13.2%.
+
+- This chart presents the Total percentage of claims by car body style. SUVs have the highest percentage at 25.3% for Hatchback, followed by SUV at 24.5%,  Sedans at 20.1%,Passenger vehicles at 16.9%, and Hardtops at 13.2%.
 
 ![Alt text](<images/image copy 24.png>)
-- This chart shows the distribution of claims by month. The month with the highest percentage is December (14.8%), followed by November (13.9%), April (14%), October (10%), and September (9%).
+
+- This chart shows the Total percentage of claims by month. The month with the highest percentage is December (14.8%), followed by November (13.9%), April (14%), October (10%), and September (9%).
 
 ![Alt text](<images/image copy 25.png>)
-This chart shows the distribution of claims by Year. The year with the claimed the highest amount by percentage is 2023 (55.5%), followed by 2022 (44.5%).
+
+- This chart shows the Total percentage of claims by Year. The year with the claimed the highest amount by percentage is 2023 (55.5%), followed by 2022 (44.5%).
 
 
 ![Alt text](<images/image copy 46.png>)
-This chart shows the distribution of claims by Gender. The Male have claimed the highest amount by percentage is Male (78.5%%), followed by female (21.5%).
+
+- This chart shows the Total percentage of claims by Gender. The Male have claimed the highest amount by percentage is Male (78.5%%), followed by female (21.5%).
 
 ![Alt text](<images/image copy 47.png>)
-This chart shows the distribution of claims by Engine. The Engine with the claimed the highest amount by percentage is Double A (51.8%), followed by Overheard camshaft (48.2%).
+
+- This chart shows the Total percentage of claims by Engine. The Engine with the claimed the highest amount by percentage is Double A (51.8%), followed by Overheard camshaft (48.2%).
 
 
 ![Alt text](<images/image copy 48.png>)
+- Dominance of Low-Income Category: The most striking observation is the overwhelming dominance of the 13,500 annual income category, accounting for 64.3% of the total claim amount. This indicates that policyholders in this income bracket are responsible for the majority of claim payouts, despite potentially having a lower number of policies compared to higher-income groups.
+- Long Tail of High-Income Categories: There is a long tail of higher-income categories, each representing a small percentage of the total claim amount (around 1.4-1.8% each). While individually small, these categories collectively contribute a significant portion of the total claim amount.
 
+- Outlier: The 3,229,750 annual income category stands out as an outlier, with a notably larger share of the total claim amount (4.7%) compared to other high-income categories. This could be due to a few very large claims within this group or a higher average claim amount for this income level.
+- Potential for Risk Segmentation: The chart suggests a clear pattern of increasing claim amount with higher income levels (excluding the outlier). This could be attributed to factors such as higher-value vehicles, more comprehensive coverage, or different driving patterns among higher-income policyholders.
 
 
 ![Alt text](<images/image copy 49.png>)
+- Dominance of Mid-Range Prices: The pie chart reveals that cars priced between $19,000 and $31,000 account for the largest share of the total claim amount. This suggests that mid-range priced cars are more likely to be involved in accidents or have higher claim amounts compared to other price ranges.
+- Even Distribution of Lower and Higher Prices: Cars priced below $19,000 and above $31,000 have a relatively even distribution in terms of their contribution to the total claim amount. Each price category within these ranges accounts for approximately 3.5-6.9% of the total claim amount.
+- Outlier: The car priced at $75,500 stands out as an outlier, contributing a significantly smaller proportion (4.5%) to the total claim amount compared to other high-priced cars. This could be due to a lower number of insured cars in this price range or a lower claim frequency for such expensive vehicles.
+- Potential for Risk Segmentation: The chart suggests a potential relationship between car price and claim amount, with mid-range priced cars having a higher risk profile. However, this relationship is not strictly linear, as both lower and higher-priced cars also contribute significantly to the total claim amount.
 
-These pie charts provide insights into the distribution of car insurance claims based on various factors such as city, car company, color, body style, and the month of the year. This information can be valuable for insurance companies to analyze risk patterns and make informed decisions regarding pricing, underwriting, and risk management strategies.
 
 
 **Observations based TimeSeries Claim_amount , Price & Annual Income**
@@ -401,43 +441,73 @@ Claim Amount:
 Insurance companies need to maintain adequate reserves and implement effective risk management strategies to handle these claim spikes and ensure financial stability.
 Analysis of claim patterns and underlying causes can help identify potential risk factors and develop targeted risk mitigation strategies.
 
-Price (Image 2):
+Price:
 
 ![Alt text](<images/image copy 29.png>)
 - The volatility in car prices can impact the insurance premium calculations and the potential claim payouts for insured vehicles.
 Highly fluctuating car prices may indicate market uncertainties or changing demand and supply dynamics, which can affect the insurer's risk exposure and profitability.
 Insurers may need to adjust their pricing models and underwriting criteria to account for the volatility in car prices and associated risks.
 
-Annual Income (Image 3):
+Annual Income:
 
 ![Alt text](<images/image copy 30.png>)
 - The relatively stable pattern of annual income data suggests a more predictable cash flow for customers, which can positively impact their ability to pay insurance premiums consistently.
 However, fluctuations in annual income can affect customers' purchasing power and their willingness or ability to maintain adequate insurance coverage.
 Insurers may consider offering flexible payment options or adjusting premiums based on income levels to ensure affordability and maintain customer retention.
 
-Overall, the high volatility in claim amounts and car prices highlights the importance of robust risk management practices for car insurance companies. Effective underwriting, pricing models, and risk mitigation strategies are crucial to address these fluctuations and maintain profitability while providing adequate coverage to customers. Monitoring and analyzing these time series data can help insurers identify emerging risks, adjust their strategies, and ensure long-term financial stability in the car insurance industry.
 
 
 correlation Matrix 
 ![Alt text](<images/image copy 36.png>)
 
 
-This dataset appears to contain various features related to car insurance claims. Here are the observations from each feature:
+The features after converting the categorical features into numerical features
 ![Alt text](<images/image copy 31.png>)
 
-* Annual_Income: The distribution shows a skewed pattern, with a large number of claims coming from individuals with lower annual income levels.
-* Price_($): The distribution of claim amounts related to the price of the vehicle seems to peak around certain values, suggesting that certain price ranges are more prone to claims.
-* Claim_amount: The distribution of claim amounts is right-skewed, with most claims being relatively small, but a few large claims contributing to the long tail.
-* Gender: The distribution shows a higher frequency for one gender over the other, indicating a potential difference in claim patterns between genders.
-* Month: There seems to be a seasonal pattern in the claims, with some months having higher claim frequencies than others.
-* Company: The distribution suggests that certain companies may have higher or lower claim frequencies compared to others.
-* City: The pattern indicates that there may be variations in claim frequencies across different cities or locations.
-* Model: The distribution shows that certain car models tend to have higher claim frequencies compared to others.
-* Color: While the distribution is not as pronounced as some other features, it suggests that the color of the vehicle may be associated with different claim patterns.
-* Engine: The distribution shows a potential relationship between engine size or type and claim frequency.
-* Body_Style: The pattern indicates that certain body styles (e.g., sedan, SUV, coupe) may have varying claim frequencies.
+Numerical Variables:
 
-Overall, this dataset provides insights into various factors that could influence the likelihood and magnitude of car insurance claims, which can be valuable for insurance companies in risk assessment and pricing.
+- Annual_Income: The distribution is heavily right-skewed, indicating that most policyholders have lower annual incomes, with a few outliers having very high incomes. This suggests a potential concentration of risk within the lower-income segment.
+
+- Price ($): The distribution is also right-skewed, suggesting that most insured cars are relatively inexpensive, with fewer expensive cars in the dataset. This could influence the distribution of claim amounts.
+
+- Claim_amount: The distribution is heavily right-skewed with a long tail, indicating that most claims are small, but there are a few very large claims. This is a typical pattern in insurance data.
+
+- Day: The distribution is relatively uniform, suggesting that the day of the month doesn't have a significant impact on claim frequency or severity.
+
+Categorical Variables:
+
+- Gender: There are two categories (likely male and female), with one category having slightly more occurrences. This could be investigated further to see if there are differences in claim behavior between genders.
+
+- Company: There are several companies, with varying frequencies. Some companies have a much higher number of policies than others, which could be due to differences in market share or target demographics.
+
+- Month: There seems to be some seasonality in the data, with certain months having more claims than others. This could be due to factors like weather conditions or holiday travel patterns.
+
+- City: There are a few cities, with varying frequencies. Some cities might have higher accident rates or more expensive repairs, leading to differences in claim frequency or severity.
+
+- Model: There are many different car models, with most models having a relatively low frequency. This indicates a diverse portfolio of insured vehicles.
+
+- Engine: There are two engine types (likely gasoline and diesel), with one type being more common. This could be investigated to see if engine type is associated with claim risk.
+
+- Color: There are a few car colors, with some being more frequent than others. It's unlikely that color has a direct impact on claim risk, but it could be correlated with other factors like car type or driver demographics.
+
+- Body_Style: There are a few body styles, with varying frequencies. Some body styles might be more prone to accidents or have higher repair costs, leading to differences in claim amounts.
+
+
+
+**Ideal Customer Profiles Information**
+
+- Chevrolet, Dodge, and Ford are the top three companies in terms of total claim amounts, indicating a higher frequency or severity of claims for these brands compared to others. This could be due to various factors, such as the popularity of these brands, the types of vehicles they manufacture, or the demographics of their customer base.
+
+- The LS400, Eldorado, and Jetta are the top three car models with the highest total claim amounts. This suggests that these models might be more prone to accidents, have higher repair costs, or are more likely to be driven by individuals with a higher risk profile.
+
+- The average claim amount and the average amount paid for insurance vary significantly across car companies and models. This highlights the importance of considering both factors when assessing risk and setting premiums. For example, while Cadillac has a relatively low total claim amount, its average claim amount is the highest among the top 10 companies, indicating that claims for Cadillac vehicles tend to be more expensive.
+
+- The distribution of claim amounts and insurance premiums across different car companies and models can be valuable for risk assessment and pricing. Insurers can use this information to develop more accurate risk models and tailor premiums to specific car brands and models. For instance, premiums for Chevrolet, Dodge, and Ford vehicles might be adjusted upwards due to their higher claim amounts, while premiums for less frequently claimed models like the Avalon or Mirage could potentially be lowered.
+
+- Income-Based Risk Models: The dominance of the 13,500 annual income category in claim amounts, coupled with the increasing trend of claim amounts with higher income levels (excluding the outlier), suggests a strong correlation between income and risk. This information can be used to develop income-based risk models, allowing insurers to adjust premiums or coverage options accordingly. For instance, higher premiums might be considered for higher-income groups due to their higher claim amounts, while lower-income groups could be offered more affordable options with potentially lower coverage limits.
+
+- Car Price and Risk: The concentration of claim amounts in the mid-range car price segment indicates a higher risk profile for these vehicles. This could be attributed to factors such as the prevalence of these cars on the road, their usage patterns, or their vulnerability to damage. Insurers can utilize this information to refine risk assessment and pricing models, potentially adjusting premiums based on car price, particularly for mid-range priced vehicles.
+
 
 
 For More Modelling refer to Notebooks: 
