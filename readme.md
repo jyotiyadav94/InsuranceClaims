@@ -82,7 +82,7 @@ These are the below attributes of the dataset.
 ![Alt text](<images/image.png>)
 
 ## 2. Quality of the dataset
-* Shape of the Dataset: The dataset contains 23,906 rows and 18 columns.
+* **Shape of the Dataset**: The dataset contains 23,906 rows and 18 columns.
 
 * Top 5 Records: 
 
@@ -95,17 +95,17 @@ These are the below attributes of the dataset.
 |  4 | C_CND_000005 | 01/02/2022 | Grace           | Male     |         1465000 | Chrysler Plymouth                   | Acura     | TL         | DoubleÃ‚Â Overhead Camshaft | Auto           | Red        |       24500 | 53546-9427  | Hatchback    | 7081483 |                        1323 |           2450 | Liepaja |
 
 
-* Data Types:The dataset contains a mix of data types: object (string), int64 (integer), and float64 (floating-point numbers).
+* **Data Types**:The dataset contains a mix of data types: object (string), int64 (integer), and float64 (floating-point numbers).
 ![Alt text](<images/image copy.png>)
 
-* Summary Statistics:
+* **Summary Statistics**:
 ![Alt text](<images/image copy 2.png>)
 - The describe() function provides summary statistics for numerical columns, including count, mean, standard deviation, minimum, 25th percentile, median (50th percentile), 75th percentile, and maximum values.
 - Key statistics for numeric columns such as Annual_Income, Price_($), Phone, Amount_paid_for_insurance, and Claim_amount are provided.
 
-* Dublicate Rows : There is No dublicate rows present in our dataset. 
+* **Dublicate Rows** : There is No dublicate rows present in our dataset. 
 
-* Missing Values:There is one missing value in the Customer_Name column.All other columns have no missing values.
+* **Missing Values**:There is one missing value in the Customer_Name column.All other columns have no missing values.
 ![Alt text](<images/imagecopy.png>)
 
 - So we decided to impute the missing values with the string value "Missing". Now we don't have any Missing Values in the Customer_Name column. 
@@ -121,8 +121,8 @@ We further generate a complete and exhaustive report for the dataset using the f
 
 **Observations Average Claim Amount and Insurance Paid**:
 
- ![Alt text](<images/image copy 52.png>)
  ![Alt text](<images/image copy 51.png>)
+ ![Alt text](<images/image copy 52.png>)
 
 **Weekly Trends**: There seems to be some fluctuation in both average claim amount and insurance paid throughout the weeks, but there is no clear consistent pattern or trend. Some weeks have higher averages, while others have lower, suggesting that claim amounts and insurance premiums might be influenced by factors other than the week of the year.
 
@@ -135,11 +135,11 @@ We further generate a complete and exhaustive report for the dataset using the f
 
 ![Alt text](<images/image copy 6.png>)
 
- - Amount_paid_for_insurance and Price_($): There is a high overall correlation between the amount paid for insurance and the price of the vehicles. This correlation suggests that as the price of the vehicle increases, the amount paid for insurance also tends to increase.
+ - **Amount_paid_for_insurance and Price_($)**: There is a high overall correlation between the amount paid for insurance and the price of the vehicles. This correlation suggests that as the price of the vehicle increases, the amount paid for insurance also tends to increase.
 
-- Dealer_Name and Dealer_No: There is a high overall correlation between dealer names and dealer numbers. This correlation indicates a strong association between specific dealerships and their unique identification numbers.
+- **Dealer_Name and Dealer_No**: There is a high overall correlation between dealer names and dealer numbers. This correlation indicates a strong association between specific dealerships and their unique identification numbers.
 
-- Engine and Transmission: There is a high overall correlation between the type of engine and transmission used in vehicles. This correlation suggests that certain engine types are commonly paired with specific transmission types.
+- **Engine and Transmission**: There is a high overall correlation between the type of engine and transmission used in vehicles. This correlation suggests that certain engine types are commonly paired with specific transmission types.
 
 
 The highly correlated features contains the redundant information. So we decided to keep only the one features and remove the redundant features. 
@@ -264,9 +264,9 @@ Each Phone No in the dataset is unique, indicating that there are 99.9% distinct
 
 **Observations for Insurancers**
 
-* Risk Assessment: The observed patterns can be valuable for risk assessment and pricing. Insurers could use this information to adjust premiums based on the dealer, company, city, car price, engine type, body style etc.
+* **Risk Assessment**: The observed patterns can be valuable for risk assessment and pricing. Insurers could use this information to adjust premiums based on the dealer, company, city, car price, engine type, body style etc.
 
-* Fraud Detection: Identifying cities or dealers with unusually high average claim amounts could help in detecting potential fraud or areas where claims handling processes need improvement.
+* **Fraud Detection**: Identifying cities or dealers with unusually high average claim amounts could help in detecting potential fraud or areas where claims handling processes need improvement.
 
 **Observations w.r.t to Model**
 
@@ -412,18 +412,19 @@ Based on the pie charts provided, I can make the following observations:
 
 
 ![Alt text](<images/image copy 48.png>)
-- Dominance of Low-Income Category: The most striking observation is the overwhelming dominance of the 13,500 annual income category, accounting for 64.3% of the total claim amount. This indicates that policyholders in this income bracket are responsible for the majority of claim payouts, despite potentially having a lower number of policies compared to higher-income groups.
-- Long Tail of High-Income Categories: There is a long tail of higher-income categories, each representing a small percentage of the total claim amount (around 1.4-1.8% each). While individually small, these categories collectively contribute a significant portion of the total claim amount.
+- **Dominance of Low-Income Category**: The most striking observation is the overwhelming dominance of the 13,500 annual income category, accounting for 64.3% of the total claim amount. This indicates that policyholders in this income bracket are responsible for the majority of claim payouts, despite potentially having a lower number of policies compared to higher-income groups.
+- **Long Tail of High-Income Categories**: There is a long tail of higher-income categories, each representing a small percentage of the total claim amount (around 1.4-1.8% each). While individually small, these categories collectively contribute a significant portion of the total claim amount.
 
-- Outlier: The 3,229,750 annual income category stands out as an outlier, with a notably larger share of the total claim amount (4.7%) compared to other high-income categories. This could be due to a few very large claims within this group or a higher average claim amount for this income level.
-- Potential for Risk Segmentation: The chart suggests a clear pattern of increasing claim amount with higher income levels (excluding the outlier). This could be attributed to factors such as higher-value vehicles, more comprehensive coverage, or different driving patterns among higher-income policyholders.
+- **Outlier**: The 3,229,750 annual income category stands out as an outlier, with a notably larger share of the total claim amount (4.7%) compared to other high-income categories. This could be due to a few very large claims within this group or a higher average claim amount for this income level.
+
+- **Potential for Risk Segmentation**: The chart suggests a clear pattern of increasing claim amount with higher income levels (excluding the outlier). This could be attributed to factors such as higher-value vehicles, more comprehensive coverage, or different driving patterns among higher-income policyholders.
 
 
 ![Alt text](<images/image copy 49.png>)
-- Dominance of Mid-Range Prices: The pie chart reveals that cars priced between $19,000 and $31,000 account for the largest share of the total claim amount. This suggests that mid-range priced cars are more likely to be involved in accidents or have higher claim amounts compared to other price ranges.
-- Even Distribution of Lower and Higher Prices: Cars priced below $19,000 and above $31,000 have a relatively even distribution in terms of their contribution to the total claim amount. Each price category within these ranges accounts for approximately 3.5-6.9% of the total claim amount.
-- Outlier: The car priced at $75,500 stands out as an outlier, contributing a significantly smaller proportion (4.5%) to the total claim amount compared to other high-priced cars. This could be due to a lower number of insured cars in this price range or a lower claim frequency for such expensive vehicles.
-- Potential for Risk Segmentation: The chart suggests a potential relationship between car price and claim amount, with mid-range priced cars having a higher risk profile. However, this relationship is not strictly linear, as both lower and higher-priced cars also contribute significantly to the total claim amount.
+- **Dominance of Mid-Range Prices**: The pie chart reveals that cars priced between $19,000 and $31,000 account for the largest share of the total claim amount. This suggests that mid-range priced cars are more likely to be involved in accidents or have higher claim amounts compared to other price ranges.
+- **Even Distribution of Lower and Higher Prices**: Cars priced below $19,000 and above $31,000 have a relatively even distribution in terms of their contribution to the total claim amount. Each price category within these ranges accounts for approximately 3.5-6.9% of the total claim amount.
+- **Outlier**: The car priced at $75,500 stands out as an outlier, contributing a significantly smaller proportion (4.5%) to the total claim amount compared to other high-priced cars. This could be due to a lower number of insured cars in this price range or a lower claim frequency for such expensive vehicles.
+- **Potential for Risk Segmentation**: The chart suggests a potential relationship between car price and claim amount, with mid-range priced cars having a higher risk profile. However, this relationship is not strictly linear, as both lower and higher-priced cars also contribute significantly to the total claim amount.
 
 
 
@@ -454,9 +455,31 @@ However, fluctuations in annual income can affect customers' purchasing power an
 Insurers may consider offering flexible payment options or adjusting premiums based on income levels to ensure affordability and maintain customer retention.
 
 
-
 correlation Matrix 
 ![Alt text](<images/image copy 36.png>)
+
+Strong Positive Correlations:
+
+- Amount Paid for Insurance vs. Claim Amount: The strongest positive correlation is between the amount paid for insurance and the claim amount. This is intuitive – more expensive policies generally cover higher potential payouts.
+- Car Price vs. Claim Amount: There's a moderately strong positive correlation here, suggesting that more expensive cars tend to have higher claim amounts when accidents occur. This could be due to higher repair costs or a tendency for owners of expensive cars to file claims more often.
+Year vs. Month & Day: The correlation between year and month, and year and day, is expected due to the sequential nature of dates.
+
+Moderate Positive Correlations:
+
+- Annual Income vs. Amount Paid for Insurance: Higher earners tend to purchase more comprehensive (and thus more expensive) insurance policies.
+- Annual Income vs. Car Price: Higher earners are more likely to own more expensive cars.
+
+Weak Positive Correlations:
+
+- Engine Type (Double Overhead Camshaft) vs. Claim Amount and Price: Cars with this engine type seem slightly more likely to have higher claim amounts and are often more expensive. This could be due to the types of cars (performance, luxury) that often have this engine.
+
+Weak Negative Correlations:
+
+- Annual Income vs. Claim Frequency: There's a slight tendency for those with higher incomes to have fewer claims. This could be due to safer driving habits, newer cars, or living in areas with lower accident rates.
+
+Notable Absence of Correlation:
+
+- Gender and Most Variables: Gender doesn't seem to correlate strongly with any other factors, including claim amounts or insurance costs. This suggests that gender might not be a significant factor in determining insurance premiums in this dataset.
 
 
 The features after converting the categorical features into numerical features
@@ -497,6 +520,10 @@ Categorical Variables:
 - Chevrolet, Dodge, and Ford are the top three companies in terms of total claim amounts, indicating a higher frequency or severity of claims for these brands compared to others. This could be due to various factors, such as the popularity of these brands, the types of vehicles they manufacture, or the demographics of their customer base.
 
 - The LS400, Eldorado, and Jetta are the top three car models with the highest total claim amounts. This suggests that these models might be more prone to accidents, have higher repair costs, or are more likely to be driven by individuals with a higher risk profile.
+
+- Gender: Male customers are more profitable due to their higher representation.
+- Location: Customers from Liepaja, Riga, and Jelgava are the most profitable.
+- Car Type: Customers who own SUVs or Hatchbacks are the most profitable.
 
 - The average claim amount and the average amount paid for insurance vary significantly across car companies and models. This highlights the importance of considering both factors when assessing risk and setting premiums. For example, while Cadillac has a relatively low total claim amount, its average claim amount is the highest among the top 10 companies, indicating that claims for Cadillac vehicles tend to be more expensive.
 
