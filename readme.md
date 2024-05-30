@@ -211,7 +211,7 @@ Engine
 - The "Overhead Camshaft" engine type has a lower count, represented by the shorter green bar, with 47.41% of the total counts.
 - While the "Double A, Overhead Camshaft" engine type has a higher count, the difference between the two engine types is not extremely large, indicating that both types are relatively common in the data set.
 
-* Phone 
+Phone 
 
  ![Alt text](<images/image copy 50.png>)
 Each Phone No in the dataset is unique, indicating that there are 99.9% distinct values in the dataset. This dataset can be removed as it contains almost unique values for each entry in the dataset.
