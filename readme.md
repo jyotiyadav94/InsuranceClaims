@@ -354,6 +354,7 @@ Now let's look at the Numerical Variables below
 - Sudden spikes in daily claims, or outlier events with many claims at once, indicate a need to account for volatility and extreme scenarios when calculating risks and financial reserves.
 
 **Outliers in Annual_income , Claim_amount & Price**
+
 Based on the pie charts provided, I can make the following observations:
 
 ![Alt text](<images/image copy 18.png>)
