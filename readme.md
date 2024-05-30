@@ -114,10 +114,11 @@ These are the below attributes of the dataset.
 
 
 ## Exploratory Data Analysis
-We further generate a complete and exhaustive report for the dataset using the following
-    - Pandas profiling 
-    - Autoviz
-    - Sweet
+We further generated a complete and exhaustive report for the dataset using the following
+
+    * Pandas profiling 
+    * Autoviz
+    * Sweet
 
 **Observations Average Claim Amount and Insurance Paid**:
 
