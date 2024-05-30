@@ -5,12 +5,6 @@
 
 * Instructions: You may invest as much time and effort as you wish. You can complete the task at your discretion, using whichever methods, libraries, and tools you think are most effective.
 
-## Dataset Description
-The dataset consists of insurance data samples, containing various attributes related to customers and their insurance policies. The dataset is stored in a CSV file.
-
-These are the below attributes of the dataset. 
-![Alt text](<images/image.png>)
-
 ## Project Structure
 
 ``` bash
@@ -42,8 +36,9 @@ This directory contains all the Jupyter notebooks used for analysis, EDA, and mo
 - **LLM_fine_tuningipynb.ipynb**  
   The Modelling is also done using the LLM model FLANT-5 Model. The demo for this is created on HuggingFace.  
   Please find the space here: [HuggingFace Space](https://huggingface.co/spaces/Jyotiyadav/InsuranceClaim)  
-  Model: [FLANT-5 Model](https://huggingface.co/Jyotiyadav/InsuranceModel1.0)  
-  ![Alt text](images/image%20copy%203.png)
+  Model: [FLANT-5 Model](https://huggingface.co/Jyotiyadav/InsuranceModel1.0)
+
+    ![Alt text](<images/image copy 44.png>)
 
 dataset/
 This directory contains all the dataset files.
@@ -66,6 +61,12 @@ The main README file for the repository, which typically contains an overview of
 .gitignore
 (Optional) A file specifying which files and directories should be ignored by Git. This can include temporary files, build artifacts, etc.
 
+
+## Dataset Description
+The dataset consists of insurance data samples, containing various attributes related to customers and their insurance policies. The dataset is stored in a CSV file.
+
+These are the below attributes of the dataset. 
+![Alt text](<images/image.png>)
 
 ### 2. Data Understanding
 * Shape of the Dataset: The dataset contains 23,906 rows and 18 columns.
