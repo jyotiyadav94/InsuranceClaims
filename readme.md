@@ -252,7 +252,7 @@ Each Phone No in the dataset is unique, indicating that there are 99.9% distinct
 
 * Pars Auto Sales has the highest average claim amount, while Motor Vehicle Branch Office has the lowest.
 * Cadillac has the highest average claim amount , while Hyundai has the lowest.
-* The average claim amount is slightly Red Color followed by Black & Pale White.ù
+* The average claim amount is slightly higher for Red Color followed by Black & Pale White.
 * Sedans have the highest average claim amount, while SUVs have the lowest.
 * Tukums has the highest average claim amount, while Riga has the lowest.
 * The Catera model has the highest average claim amount  while the Avalon and Mirage models have the lowest.
