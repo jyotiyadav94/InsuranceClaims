@@ -346,15 +346,12 @@ Now let's look at the Numerical Variables below
 **Observations w.r.t to Claim Amount**
 ![Alt text](<images/image copy 17.png>)
 
-Based on the multi-panel visualization, I can make the following observations related to financial and risk forecasting for car insurance claims:
 
 - More claims come from customers with lower incomes, so insurers may need to adjust pricing or risk models for this customer segment.
 - Most claims are for smaller amounts around $1,500, but there are also some larger claims up to $7,500 or more. Insurers need to plan for both frequent small claims and occasional large claims.
 - There is a pattern of more claims happening around the middle of the year, likely due to factors like more driving or weather impacts. Understanding these seasonal patterns can help predict claim volumes. So the maximum peaks or highest volumes of claims occur around the middle of the year, likely during the summer months of June, July and August.
 - The distribution of claims across different vehicle prices/policy types provides insights into potential losses for each pricing tier.
 - Sudden spikes in daily claims, or outlier events with many claims at once, indicate a need to account for volatility and extreme scenarios when calculating risks and financial reserves.
-
-In simple terms, this data can help insurers better estimate claim costs, set appropriate pricing, and have sufficient funds reserved to cover claims while accounting for patterns, different customer groups, and potential volatility in the claims process.
 
 **Outliers in Annual_income , Claim_amount & Price**
 Based on the pie charts provided, I can make the following observations:
