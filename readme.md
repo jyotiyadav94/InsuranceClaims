@@ -143,21 +143,20 @@ We further generated a complete and exhaustive report for the dataset using the 
 - **Engine and Transmission**: There is a high overall correlation between the type of engine and transmission used in vehicles. This correlation suggests that certain engine types are commonly paired with specific transmission types.
 
 
-The highly correlated features contains the redundant information. So we decided to keep only the one features and remove the redundant features. 
-Observations: 
+The highly correlated features contain redundant information. So we decided to keep only one feature and remove the redundant features. 
+
     - Highly correlated features can make it challenging to interpret the importance of individual features. Feature importance becomes ambiguous when two or more features convey similar information.
     - Models trained on datasets with highly correlated features may perform well on the training data but struggle to generalize to new, unseen data.
     - Correlated features can lead to a phenomenon known as the “curse of dimensionality,” where the model’s performance degrades as the number of features increases.
-
-   - Interpretable models are essential for understanding the factors influencing predictions. Removing correlated features aids in clearer interpretation and better decision-making.
-   - Removing correlated features helps improve a model’s ability to generalize to new data, reducing the risk of overfitting and making the model more robust.
-   - Removing redundant features can lead to simpler models that are less prone to overfitting and perform better on unseen data.
+    - Interpretable models are essential for understanding the factors influencing predictions. Removing correlated features aids in clearer interpretation and better decision-making.
+    - Removing correlated features helps improve a model’s ability to generalize to new data, reducing the risk of overfitting and making the model more robust.
+    - Removing redundant features can lead to simpler models that are less prone to overfitting and perform better on unseen data.
 
 
 * **Car_id**: Each car ID in the dataset is unique, indicating that there are no duplicate entries for vehicle identifiers.
 The "Car_id" column should be removed because it contains unique values for each entry in the dataset. Since each car ID is unique, this column essentially serves as an identifier or key for individual records and does not provide any meaningful information for analysis or modeling purposes. Including such a column in predictive modeling can introduce noise and computational overhead without contributing to the model's predictive power. Therefore, removing the "Car_id" column simplifies the dataset and improves the efficiency and interpretability of machine learning algorithms.
 
-* **Date Feature Extraction**: Converte the 'Date' column to a datetime data type using the pd.to_datetime() function. This conversion ensures that the 'Date' column is recognized and treated as datetime objects, enabling subsequent manipulation and extraction of temporal information.
+* **Date Feature Extraction**: Converte the 'Date' column to a datetime data type using the pd.to_datetime() function. This conversion ensures that the 'Date' column is recognized and treated as datetime object, enabling subsequent manipulation and extraction of temporal information.
   
 Initial Dataset Information:
 After the conversion, we verify the data types and information of the DataFrame using the df.info() function. This step is crucial to confirm the successful conversion of the 'Date' column to datetime format and to ensure the integrity of the dataset.
