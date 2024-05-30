@@ -83,7 +83,7 @@ These are the below attributes of the dataset.
 
 ## 2. Quality of the dataset
 * **Shape of the Dataset**: The dataset contains 23,906 rows and 18 columns.
-
+* Rename Column Names**: The column Names have been renamed space is replaced by _ for simplicity. 
 * Top 5 Records: 
 
 |    | Car_id       | Date       | Customer_Name   | Gender   |   Annual_Income | Dealer_Name                         | Company   | Model      | Engine                      | Transmission   | Color      |   Price_($) | Dealer_No   | Body_Style   |   Phone |   Amount_paid_for_insurance |   Claim_amount | City    |
